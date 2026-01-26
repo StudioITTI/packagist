@@ -6,7 +6,7 @@
                 "description": "Handle PHP errors with different actions based on error type",
                 "autoload": {
                     "psr-4": {
-                        "ITTI\\ErrorsManager\\": "src"
+                        "ITTI2\\ErrorsManager\\": "src"
                     }
                 },
                 "require": {
@@ -16,7 +16,7 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/StudioITTI/composer-errors-manager",
-                    "reference": "312a787113c1e271f16aff7af76b435f9879b45f"
+                    "reference": "cdb914b9d32e9521d0cbe8f502ccf3c62b315cca"
                 }
             }
         }
