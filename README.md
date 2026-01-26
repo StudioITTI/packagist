@@ -11,7 +11,7 @@ Put this in your `composer.json`:
     "repositories": [
         {
             "type": "composer",
-            "url": "https://github.com/StudioITTI/packagist/raw/refs/heads/master/packages.json"
+            "url": "https://github.com/StudioITTI/packagist/raw/refs/heads/main/packages.json"
         }
     ]
 }
