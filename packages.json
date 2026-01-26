@@ -1,0 +1,24 @@
+{
+    "packages": {
+        "itti/errors-manager": {
+            "v1.0.0": {
+                "name": "itti/errors-manager",
+                "description": "Handle PHP errors with different actions based on error type",
+                "autoload": {
+                    "psr-4": {
+                        "ITTI\\ErrorsManager\\": "src"
+                    }
+                },
+                "require": {
+                    "php": "^8.0"
+                },
+                "version": "v1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/StudioITTI/composer-errors-manager",
+                    "reference": "312a787113c1e271f16aff7af76b435f9879b45f"
+                }
+            }
+        }
+    }
+}
