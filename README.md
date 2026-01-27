@@ -1,6 +1,6 @@
 ## Description
 
-Storage for the `packages.json` file which references all ITTI Composer projects.
+Storage for the `packages.json` file which references all ITTI Composer packages.
 
 ## Usage
 
