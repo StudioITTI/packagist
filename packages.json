@@ -48,6 +48,30 @@
                     "reference": "233f03fbf62cd8647fcb7690c605ac8676f43184",
                     "shasum": ""
                 }
+            },
+            "v1.2.0": {
+                "name": "itti/errors-manager",
+                "description": "Handle PHP errors with different actions based on error type",
+                "autoload": {
+                    "psr-4": {
+                        "ITTI2\\ErrorsManager\\": "src"
+                    }
+                },
+                "require": {
+                    "php": "^8.0"
+                },
+                "version": "v1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:StudioITTI/composer-errors-manager.git",
+                    "reference": "a80e7d77c5c3bc130acfcf716dfdca9fe26fb0aa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/StudioITTI/composer-errors-manager/zipball/a80e7d77c5c3bc130acfcf716dfdca9fe26fb0aa",
+                    "reference": "a80e7d77c5c3bc130acfcf716dfdca9fe26fb0aa",
+                    "shasum": ""
+                }
             }
         }
     }
