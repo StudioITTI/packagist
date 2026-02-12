@@ -24,7 +24,7 @@ To allow composer to download the `dist` variant instead of `source`, you need t
 - Create a token which can access all organisation repositories, with read-only permission for "Contents"
 - Copy and save the generated token
 - Execute `composer config -g github-oauth.github.com YOUR_GITHUB_TOKEN`
-- Now you can do `composer install` and it should
+- Now you can do `composer install` and it should use the dist version instead of the repo
 
 ### Windows usage
 For using composer in Windows environment with cmd.exe, you need an environment variable `GIT_SSH` pointing to
