@@ -1,5 +1,31 @@
 {
     "packages": {
+        "itti/cache-storage": {
+            "v1.0.0": {
+                "name": "itti/cache-storage",
+                "description": "A generic cache storage class which stores data by string keys and supports purging less valuable data when the cache is filled to a predetermined threshold",
+                "autoload": {
+                    "psr-4": {
+                        "ITTI2\\CacheStorage\\": "src"
+                    }
+                },
+                "require": {
+                    "php": "^8.0"
+                },
+                "version": "v1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:StudioITTI/composer-cache-storage.git",
+                    "reference": "b3c609247bb7a2b02aa25ceb12c4502c7a6318fe"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/StudioITTI/composer-cache-storage/zipball/b3c609247bb7a2b02aa25ceb12c4502c7a6318fe",
+                    "reference": "b3c609247bb7a2b02aa25ceb12c4502c7a6318fe",
+                    "shasum": ""
+                }
+            }
+        },
         "itti/errors-manager": {
             "v1.0.0": {
                 "name": "itti/errors-manager",
