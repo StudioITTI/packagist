@@ -79,6 +79,32 @@
                 }
             }
         },
+        "itti/dbrow": {
+            "v1.0.0": {
+                "name": "itti/dbrow",
+                "autoload": {
+                    "psr-4": {
+                        "ITTI2\\DBRow\\": "src"
+                    }
+                },
+                "require": {
+                    "php": "^8.0",
+                    "itti/db": "^1"
+                },
+                "version": "v1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:StudioITTI/composer-dbrow.git",
+                    "reference": "6d2b109f67a4ed5f01209456f391efead10d859b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/StudioITTI/composer-dbrow/zipball/6d2b109f67a4ed5f01209456f391efead10d859b",
+                    "reference": "6d2b109f67a4ed5f01209456f391efead10d859b",
+                    "shasum": ""
+                }
+            }
+        },
         "itti/errors-manager": {
             "v1.0.0": {
                 "name": "itti/errors-manager",
