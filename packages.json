@@ -26,6 +26,71 @@
                 }
             }
         },
+        "itti/db-mysqli": {
+            "v1.0.0": {
+                "name": "itti/db-mysqli",
+                "autoload": {
+                    "psr-4": {
+                        "ITTI2\\DBMySQLi\\": "src"
+                    }
+                },
+                "repositories": [
+                    {
+                        "type": "composer",
+                        "url": "https://raw.githubusercontent.com/StudioITTI/packagist/refs/heads/main/packages.json"
+                    }
+                ],
+                "require": {
+                    "php": "^8.0",
+                    "ext-mysqli": "*",
+                    "itti/db": "^1"
+                },
+                "version": "v1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:StudioITTI/composer-db-mysqli.git",
+                    "reference": "48246d2180cfeb533f27f83088a3ff110a18ea2b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/StudioITTI/composer-db-mysqli/zipball/48246d2180cfeb533f27f83088a3ff110a18ea2b",
+                    "reference": "48246d2180cfeb533f27f83088a3ff110a18ea2b",
+                    "shasum": ""
+                }
+            }
+        },
+        "itti/db": {
+            "v1.0.0": {
+                "name": "itti/db",
+                "autoload": {
+                    "psr-4": {
+                        "ITTI2\\DB\\": "src"
+                    }
+                },
+                "repositories": [
+                    {
+                        "type": "composer",
+                        "url": "https://raw.githubusercontent.com/StudioITTI/packagist/refs/heads/main/packages.json"
+                    }
+                ],
+                "require": {
+                    "php": "^8.0",
+                    "itti/cache-storage": "^1"
+                },
+                "version": "v1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:StudioITTI/composer-db.git",
+                    "reference": "12bf8bb947ee045b2dd020fa8cc52090f50d63ca"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/StudioITTI/composer-db/zipball/12bf8bb947ee045b2dd020fa8cc52090f50d63ca",
+                    "reference": "12bf8bb947ee045b2dd020fa8cc52090f50d63ca",
+                    "shasum": ""
+                }
+            }
+        },
         "itti/errors-manager": {
             "v1.0.0": {
                 "name": "itti/errors-manager",
