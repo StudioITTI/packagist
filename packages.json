@@ -34,12 +34,6 @@
                         "ITTI2\\DBMySQLi\\": "src"
                     }
                 },
-                "repositories": [
-                    {
-                        "type": "composer",
-                        "url": "https://raw.githubusercontent.com/StudioITTI/packagist/refs/heads/main/packages.json"
-                    }
-                ],
                 "require": {
                     "php": "^8.0",
                     "ext-mysqli": "*",
@@ -67,12 +61,6 @@
                         "ITTI2\\DB\\": "src"
                     }
                 },
-                "repositories": [
-                    {
-                        "type": "composer",
-                        "url": "https://raw.githubusercontent.com/StudioITTI/packagist/refs/heads/main/packages.json"
-                    }
-                ],
                 "require": {
                     "php": "^8.0",
                     "itti/cache-storage": "^1"
